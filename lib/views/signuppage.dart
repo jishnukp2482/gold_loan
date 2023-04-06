@@ -14,9 +14,11 @@ class Signup extends StatelessWidget {
             extendBodyBehindAppBar: true,
             resizeToAvoidBottomInset: false,
             appBar: AppBar(
+              automaticallyImplyLeading: false,
               elevation: 0,
               backgroundColor: Colors.transparent,
               bottom: AppBar(
+                automaticallyImplyLeading: false,
                 elevation: 0,
                 backgroundColor: Colors.transparent,
                 actions: [
@@ -29,7 +31,7 @@ class Signup extends StatelessWidget {
                           icon: const Icon(
                             Icons.arrow_back_ios,
                             size: 27,
-                            color: Colors.white24,
+                            color: Colors.white38,
                           )))
                 ],
                 title: Column(
